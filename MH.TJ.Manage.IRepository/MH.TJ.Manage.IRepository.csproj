@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MH.TJ.Manage.Models\MH.TJ.Manage.Models.csproj" />
+    <ProjectReference Include="..\MH.TJ.Manage.Utility\MH.TJ.Manage.Utility.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="mh_cms\" />
+    <Folder Include="sys_config\" />
+    <Folder Include="mh_cms\" />
+    <Folder Include="sys_config\" />
+  </ItemGroup>
+
+</Project>

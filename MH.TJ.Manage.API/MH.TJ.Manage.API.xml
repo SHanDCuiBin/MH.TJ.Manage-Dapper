@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MH.TJ.Manage.API</name>
+    </assembly>
+    <members>
+        <member name="M:MH.TJ.Manage.API.Controllers.AuthoizeController.Login(System.String,System.String)">
+            <summary>
+            登陆  
+            </summary>
+            <param name="username">用户名</param>
+            <param name="userpwd">密码</param>
+            <returns></returns>
+        </member>
+        <member name="M:MH.TJ.Manage.API.Controllers.rhrController.GetUsers(System.String,AutoMapper.IMapper)">
+            <summary>
+            获取个人基本信息
+            </summary>
+            <param name="id_card"></param>
+            <param name="mapper"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MH.TJ.Manage.API.Controllers.rhrController.GetJktj(System.String,AutoMapper.IMapper)">
+            <summary>
+            获取健康体检记录 【当年】
+            </summary>
+            <param name="tmh"></param>
+            <param name="mapper"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MH.TJ.Manage.API.Controllers.rhrController.GetJktjOld(System.String,AutoMapper.IMapper)">
+            <summary>
+            获取健康体检记录  【跨年】
+            </summary>
+            <param name="tmh"></param>
+            <param name="mapper"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MH.TJ.Manage.API.Controllers.rhrController.GetJktjFenyeKuaNian(System.Int32,System.Int32,AutoMapper.IMapper)">
+            <summary>
+            分页查询获取健康体检记录  【跨年】
+            </summary>
+            <param name="page"></param>
+            <param name="size"></param>
+            <param name="mapper"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MH.TJ.Manage.API.Controllers.rhrController.GetJktjFenye(System.Int32,System.Int32,AutoMapper.IMapper)">
+            <summary>
+            分页查询获取健康体检记录
+            </summary>
+            <param name="page"></param>
+            <param name="size"></param>
+            <param name="mapper"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MH.TJ.Manage.API.Startup.ConfigureContainer(Autofac.ContainerBuilder)">
+            <summary>
+            AutoIoc 
+            </summary>
+            <param name="builder"></param>
+        </member>
+    </members>
+</doc>
